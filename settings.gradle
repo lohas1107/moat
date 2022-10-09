@@ -1,1 +1,3 @@
 rootProject.name = 'moat'
+
+include 'core'
