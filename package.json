@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "e2e:test": "npx playwright test"
+  },
   "devDependencies": {
-    "@cucumber/cucumber": "^8.6.0"
+    "@cucumber/cucumber": "^8.6.0",
+    "@playwright/test": "^1.27.0"
   }
 }
