@@ -1,6 +1,10 @@
-FROM node:18-slim AS base
+FROM ubuntu:latest
 WORKDIR /moat
-
-FROM mcr.microsoft.com/playwright:v1.27.0-focal AS playwright
-WORKDIR /moat
-EXPOSE 9223
+RUN apt-get update && apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN apt-get install -y \
+    git \
+    nodejs \
+    openjdk-17-jdk
+RUN npm install --global yarn
+RUN npx playwright install --with-deps

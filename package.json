@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "e2e:test": "npx playwright test"
+    "backend:run": "./gradlew bootRun --build-cache --parallel",
+    "test": "yarn test:e2e && yarn test:backend",
+    "test:e2e": "npx playwright test",
+    "test:backend": "./gradlew test --build-cache --parallel"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^8.6.0",

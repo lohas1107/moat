@@ -11,14 +11,14 @@ $ yarn install
 
 ## Get Started
 
-### Start the development server
+### Start the development workspace
 
 ```bash
 $ sh start.sh
 ```
 
-### Run e2e test
+### Run all test
 
 ```bash
-$ yarn e2e:test 
+$ yarn test
 ```
