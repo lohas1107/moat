@@ -7,6 +7,7 @@
 ```bash
 $ sh start.sh
 $ yarn install
+$ exit
 ```
 
 ## Get Started
