@@ -1,15 +1,36 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@playwright/test': ^1.27.1
   typescript: ^4.8.4
 
 devDependencies:
+  '@playwright/test': 1.27.1
   typescript: 4.8.4
 
 packages:
 
+  /@playwright/test/1.27.1:
+    resolution: { integrity: sha512-mrL2q0an/7tVqniQQF6RBL2saskjljXzqNcCOVMUjRIgE6Y38nCNaP+Dc2FBW06bcpD3tqIws/HT9qiMHbNU0A== }
+    engines: { node: '>=14' }
+    hasBin: true
+    dependencies:
+      '@types/node': 18.11.2
+      playwright-core: 1.27.1
+    dev: true
+
+  /@types/node/18.11.2:
+    resolution: { integrity: sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw== }
+    dev: true
+
+  /playwright-core/1.27.1:
+    resolution: { integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q== }
+    engines: { node: '>=14' }
+    hasBin: true
+    dev: true
+
   /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
-    engines: {node: '>=4.2.0'}
+    resolution: { integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ== }
+    engines: { node: '>=4.2.0' }
     hasBin: true
     dev: true
