@@ -7,10 +7,10 @@
 ```bash
 $ make develop
 ```
+All below commands should be run from within the development workspace.
 
-### Initialize E2E test module
+### Initialize all module
 
 ```bash
-$ cd e2e
-$ pnpm install
+$ make init
 ```
