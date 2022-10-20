@@ -15,3 +15,6 @@ setup:
 	pnpm --dir /moat/e2e install
 
 init: clean setup
+
+test-e2e:
+	pnpm --dir /moat/e2e test
