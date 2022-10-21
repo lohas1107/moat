@@ -1,6 +1,5 @@
 # Node
 .pnpm-store
-**/node_modules/
 
 # JetBrain IDE
 .idea
