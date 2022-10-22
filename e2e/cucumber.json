@@ -1,0 +1,13 @@
+{
+  "default": {
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "paths": [
+      "features/**/*.feature"
+    ],
+    "require": [
+      "step_definitions/**/*.ts"
+    ]
+  }
+}
