@@ -17,4 +17,7 @@ setup:
 init: clean setup
 
 test-e2e:
+	xvfb-run --auto-servernum pnpm --dir /moat/e2e test
+
+test-ci:
 	pnpm --dir /moat/e2e test
