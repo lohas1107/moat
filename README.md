@@ -1,4 +1,5 @@
 # moat
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lohas1107/moat/E2E%20Tests)
 
 ## Get Started
 
