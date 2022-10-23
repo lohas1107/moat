@@ -5,7 +5,7 @@
 ### Start the development workspace
 
 ```bash
-$ make develop
+make develop
 ```
 
 All below commands should be run from within the development workspace.
@@ -13,11 +13,11 @@ All below commands should be run from within the development workspace.
 ### Initialize all module
 
 ```bash
-$ make init
+make init
 ```
 
 ### Run E2E tests
 
 ```bash
-$ make test-e2e
+make test-e2e
 ```
